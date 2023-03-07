@@ -3,7 +3,6 @@ import { DisplayDifficulty } from "./components/DisplayDifficulty/DisplayDifficu
 import { MenuList } from "./components/MenuList/MenuList";
 import s from "./style.module.css";
 
-// Define a global style for the App component
 const appStyle = {
   fontFamily: "'Roboto', sans-serif",
   display: "flex",
@@ -12,10 +11,11 @@ const appStyle = {
   minHeight: "100vh",
 };
 
-// Define a style for the h1 and h2 elements
 const headingStyle = {
   textAlign: "center",
 };
+
+// ------------------------------>
 
 export function App() {
   const [currentDificulty, setCurrentDifficulty] = useState("");
